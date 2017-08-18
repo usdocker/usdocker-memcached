@@ -1,6 +1,6 @@
 # Useful script for 'memcached' service
 
-This Useful Script creates a Wordpress server based on a Docker Image.
+This Useful Script creates a memcached server based on a Docker Image.
 You don't have know docker to use this solution.
 
 ## Start the memcached service
@@ -33,7 +33,7 @@ usdocker memcached --set variable=value
 Default values
 
  - image: "memcached:alpine",
- - folder: "/home/jg/.usdocker/data/memcached",
+ - folder: "$HOME/.usdocker/data/memcached",
  - port: 11211,
  - memory: 1
 
