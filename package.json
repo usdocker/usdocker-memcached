@@ -1,0 +1,26 @@
+{
+  "name": "usdocker-memcached",
+  "version": "1.0.0",
+  "description": "USDocker script for Memcached ",
+  "main": "usdocker_mysql.js",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint *.js",
+    "postinstall": "./node_modules/.bin/usdocker -rv"
+  },
+  "keywords": [
+    "usdocker",
+    "memcached"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/usdocker/usdocker-memcached.git"
+  },
+  "author": "joao@byjg.com.br",
+  "license": "MIT",
+  "dependencies": {
+    "usdocker": "^1.0.*"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1"
+  }
+}
