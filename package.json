@@ -1,6 +1,6 @@
 {
   "name": "usdocker-memcached",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "USDocker script for Memcached ",
   "main": "usdocker_memcached.js",
   "scripts": {
