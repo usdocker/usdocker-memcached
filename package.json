@@ -1,12 +1,11 @@
 {
-  "name": "usdocker-memcached",
+  "name": "@usdocker/memcached",
   "version": "1.0.3",
   "description": "USDocker script for Memcached ",
   "main": "usdocker_memcached.js",
   "scripts": {
     "test": "./node_modules/.bin/eslint *.js",
-    "preinstall": "npm i -g usdocker",
-    "postinstall": "./node_modules/.bin/usdocker -rv"
+    "postinstall": "usdocker -rv"
   },
   "keywords": [
     "usdocker",
