@@ -1,6 +1,6 @@
 'use strict';
 
-const usdocker = require('usdocker');
+const usdocker = require('@usdocker/usdocker');
 
 const SCRIPTNAME = 'memcached';
 
