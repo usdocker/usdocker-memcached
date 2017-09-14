@@ -1,6 +1,6 @@
 {
   "name": "@usdocker/memcached",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "USDocker script for Memcached ",
   "main": "usdocker_memcached.js",
   "scripts": {
@@ -17,6 +17,6 @@
   "author": "joao@byjg.com.br",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.5.0"
+    "eslint": "^4.13.1"
   }
 }
